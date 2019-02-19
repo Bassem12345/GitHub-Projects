@@ -1,0 +1,122 @@
+body {
+    font-family: Arvo,
+        serif;
+    background: url(https://66.media.tumblr.com/361cd8398008584d19cd7750791f5022/tumblr_obcggxAjR31u7ns0go1_1280.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.navbar-header img {
+    padding: 15px;
+}
+
+.navbar li {
+    color: #fff;
+    /*    padding: 10px 10px;*/
+    margin-right: 35px;
+    padding: 10px 0px;
+
+}
+
+.navbar li:hover {
+    border-bottom: 1px solid #00FFB8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.navbar li a {
+    font-size: 20px;
+}
+
+.navbar-inverse {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul a {
+    color: darkgray;
+}
+
+.navbar ul a:hover {
+    color: white;
+
+}
+
+.jumbotron {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    letter-spacing: 2.5px;
+
+
+}
+
+.jumbotron h1 {
+    font-size: 70px;
+}
+
+.bodyimage {
+    height: 100px;
+}
+
+.col-md-4 {
+    text-align: center;
+    color: white;
+
+}
+
+.icons p {
+    font-size: 18px;
+
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.contacts {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.btn {
+/*    width: 250px;*/
+
+    /*    height: 100px;*/
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background: rgba(0, 255, 184, 0.5);
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    padding: 10px 70px;
+}
+
+.btn:hover {
+    color: white;
+    background: rgba(17, 14, 5, 0.4);
+}
+
+.footer {
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.5);
+    color: grey;
+    padding: 10px 0;
+
+
+}
+
+@media(max-width:768px) {
+    .bodyimage {
+        height: 70px;
+    }
+
+    .jumbotron h1 {
+        font-size: 45px
+    }
+}

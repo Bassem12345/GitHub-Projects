@@ -1,0 +1,281 @@
+.body {
+    font-family: 'Vollkorn', sans-serif;
+    /*    position: relative;*/
+}
+
+.container {
+    max-width: 1000px;
+}
+
+video#bgvideo {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    margin-top: 50px;
+    color: #e45a33;
+}
+
+.bodyimage {
+    height: 135px;
+
+}
+
+#about {
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+#about h2 {
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 4em;
+
+}
+
+#joinus {
+    background-color: rgb(225, 147, 75);
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 8px 20px;
+    color: #e45a33;
+    border-radius: 10px;
+}
+
+#joinus:hover {
+    background-color: rgba(225, 147, 75, 0.5);
+
+}
+
+.navbar-custom {
+    font-size: 18px;
+    background-color: #f2b94e;
+    border-color: #f0ad2f;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f5cc7e), to(#f2b94e));
+    background-image: -webkit-linear-gradient(top, #f5cc7e, 0%, #f2b94e, 100%);
+    background-image: -moz-linear-gradient(top, #f5cc7e 0%, #f2b94e 100%);
+    background-image: linear-gradient(to bottom, #f5cc7e 0%, #f2b94e 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5cc7e', endColorstr='#fff2b94e', GradientType=0);
+}
+
+.navbar-custom .navbar-brand {
+    color: #e45a33;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: #e45a33;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-text {
+    color: #e45a33;
+}
+
+.navbar-custom .navbar-nav > li:last-child > a {
+    border-right: 1px solid #f0ad2f;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #e45a33;
+    border-left: 1px solid #f0ad2f;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #f0ad2f;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f0ad2f), to(#f3c05f));
+    background-image: -webkit-linear-gradient(top, #f0ad2f, 0%, #f3c05f, 100%);
+    background-image: -moz-linear-gradient(top, #f0ad2f 0%, #f3c05f 100%);
+    background-image: linear-gradient(to bottom, #f0ad2f 0%, #f3c05f 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad2f', endColorstr='#fff3c05f', GradientType=0);
+}
+
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+}
+
+.navbar-custom .navbar-toggle {
+    border-color: #f0ac2d;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #f0ad2f;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #e45a33;
+}
+
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+    border-color: #f0ad2f;
+}
+
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+    background-color: #f0ad2f;
+    color: #ffffff;
+}
+
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+    border-top-color: #e45a33;
+    border-bottom-color: #e45a33;
+}
+
+@media (max-width: 767) {
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+        color: #e45a33;
+    }
+
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffffff;
+        background-color: transparent;
+    }
+
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ffffff;
+        background-color: #f0ad2f;
+    }
+
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #cccccc;
+        background-color: transparent;
+    }
+}
+
+.navbar-custom .navbar-link {
+    color: #e45a33;
+}
+
+.navbar-custom .navbar-link:hover {
+    color: #ffffff;
+}
+
+#myCarousel {
+
+    width: 60%;
+    margin: 100px auto 0px auto;
+}
+
+
+
+.carousel-inner .item img {
+    height: 400px;
+    margin: 0px auto;
+}
+
+.carousel-inner .item h2 {
+    /*    color: #333333;*/
+    color: #e45a33;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 150px;
+}
+
+#footer {
+    color: #e45a33;
+    background-color: rgba(225, 147, 75, 0.5);
+    margin-top: 100px;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+
+@media(max-width:768px) {
+    .carousel-inner .item img {
+        height: 300px;
+
+    }
+
+    .carousel-inner .item h2 {
+        font-size: 23px;
+    }
+
+    .jumbotron h1 {
+        font-size: 35px;
+    }
+
+    .jumbotron h2 {
+        font-size: 25px;
+    }
+
+    .jumbotron {
+        color: #333333;
+    }
+
+    body {
+        background: url('images/sunset.jpg')center center fixed;
+        background-size: cover;
+    }
+
+    #bgvideo {
+        display: none;
+    }
+}
+
+@media(max-width:480px) {
+    .carousel-inner .item img {
+        height: 200px;
+
+    }
+
+    .carousel-inner .item h2 {
+        font-size: 18px;
+    }
+
+
+    .navbar-brand {
+        font-size: 15px;
+    }
+}
